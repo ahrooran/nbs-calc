@@ -25,5 +25,12 @@ public class CalculatorTest {
 		int result = calc.divide(4,2);
 		Assert.assertEquals(2, result);
 	}
+	
+	@Test
+	public void multiplyTwoNumbersTogetherTest() {
+		Calculator calc = new Calculator();
+		int result = calc.multiply(4,2);
+		Assert.assertEquals(8, result);
+	}
 
 }
