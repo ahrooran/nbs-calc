@@ -18,5 +18,12 @@ public class CalculatorTest {
 		int result = calc.subtract(4,2);
 		Assert.assertEquals(2, result);
 	}
+	
+	@Test
+	public void divideTwoNumbersTogetherTest() {
+		Calculator calc = new Calculator();
+		int result = calc.divide(4,2);
+		Assert.assertEquals(2, result);
+	}
 
 }
