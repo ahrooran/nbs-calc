@@ -32,6 +32,5 @@ public class CalculatorTest {
 		int result = calc.multiply(4,2);
 		Assert.assertEquals(8, result);
 	}
-	
 
 }

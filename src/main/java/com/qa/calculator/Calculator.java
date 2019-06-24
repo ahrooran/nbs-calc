@@ -18,7 +18,4 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		return number1 * number2;
 	}
-	
-
-
 }
